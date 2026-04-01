@@ -106,7 +106,7 @@ http://localhost:3000
 
 ## Issues
 
-Report bugs or unexpected behavior via the repository’s issue tracker.
+No issues reported
 
 ---
 
