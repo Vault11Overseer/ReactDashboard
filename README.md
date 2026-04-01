@@ -1,48 +1,121 @@
-# TITLE
-**React Admin Dashboard**
+# React Dashboard
 
-  **CURRENT_STATUS = LIVE**
-  
-  ## Description
+A modern, responsive administrative dashboard built with React and Material UI.
 
-  
-  ## Demonstration
-  This project is live @ https://jaredmatta.com/ReactDashboard/
+## Demo
 
+Live demo: https://jaredmatta.com/ReactDashboard/
 
-# STATUS
-**This project is complete**
+---
 
-  ## REQUIREMENTS
-  OS: N/A
-  Languages: JavaScript 
-  Libraries: REACT JS
-  Extra: NPM is a required download
+## Overview
 
-  ## Cloning
-  **How to clone this project.**
-  Clone or download the files here from GitHub.
-  
-  
-  ## Setup
-  
+This project is a comprehensive administrative interface designed for data visualization and management. It features a highly customizable sidebar, theme switching (Light/Dark mode), and a variety of complex data views including interactive charts and a full-featured calendar.
 
-  
+---
 
-# Future Development
-**This is a breakdown of all future development including issues, bugs, and even new features.**
+## Features
 
-  ## Future development
-  **All future development plans.**
-  This project is currently complete and I am focussing on other problems at the moment.
-  
-  ## Can you help
-  **See if you can help.**
-  I can use help with the intro routing.
-    *Upon refresh notice that the page refreshes to an alternative link.
-  
+- **Data Management:** Interactive tables for Team, Contacts, and Invoices using MUI DataGrid.
+- **Visualization:** Advanced Bar, Pie, Line, and Geography charts powered by Nivo.
+- **Interactivity:** A functional calendar with event creation and deletion.
+- **Form Handling:** A user profile form integrated with Formik and Yup for validation.
+- **Theming:** Full Light and Dark mode support with a custom tokenized color palette.
 
+---
 
+## Tech Stack
 
+- **Core:** React 18
+- **UI Framework:** Material UI (MUI) & Emotion
+- **Routing:** React Router 6
+- **Charts:** Nivo
+- **Calendar:** FullCalendar
+- **Forms:** Formik & Yup
 
+---
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed on your machine.
+- NPM (comes with Node.js) is required to manage dependencies.
+
+### Installation
+
+1. Clone the repository:
+git clone https://github.com/jaredmatta/ReactDashboard.git
+
+2. Navigate into the project:
+cd ReactDashboard
+
+3. Run locally (if applicable):
+npm install
+npm start
+
+Then open:
+http://localhost:3000
+
+---
+
+## Usage
+
+### Desktop
+
+- Use the Sidebar to navigate between the Dashboard, Data Management pages, and Visualization charts.
+- Toggle the Sidebar width using the menu icon at the top of the sidebar.
+- Switch between Light and Dark modes using the icon in the Topbar.
+
+### Mobile
+
+- The sidebar automatically collapses to provide more screen real estate.
+- Responsive design ensures charts and data grids scale appropriately.
+
+### Settings / Controls (if applicable)
+
+- **Theme Toggle:** Click the Sun/Moon icon in the top right.
+- **Calendar:** Click a date to add an event or click an existing event to delete it.
+
+---
+
+## Key Improvements / Updates
+
+- Implemented a centralized theme management system using React Context.
+- Optimized data grid performance for handling mock data sets.
+- Integrated advanced SVG-based geography mapping.
+
+---
+
+## Future Improvements
+
+- Fix the routing issue where page refreshes point to alternative subdirectory links.
+- Implement real backend API integration to replace mock data.
+- Add user authentication and role-based access control (RBAC).
+
+---
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+---
+
+## Issues
+
+Report bugs or unexpected behavior via the repository’s issue tracker.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Notes
+
+The project currently uses a `PUBLIC_URL` set to the root for local development. When deploying to a subdirectory like `/ReactDashboard`, ensure the `homepage` field in `package.json` is correctly configured to maintain routing integrity.

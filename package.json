@@ -1,7 +1,7 @@
 {
-  "name": "ReactDash",
+  "name": "ReactDashboard",
   "version": "0.1.0",
-  "homepage": "https://jaredmatta.com/ReactDash",
+  "homepage": "https://jaredmatta.com/ReactDashboard",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
